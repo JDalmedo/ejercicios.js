@@ -12,5 +12,13 @@ const duplicates = [
     'soda'
     ];
     function removeDuplicates(param) {
-        //insert code
+        const uniques =[];
+        for (const element of param){
+            if(!uniques.includes(element)) {
+                uniques.push(element);
+
+            }
+        }
+        console.log(uniques);
     }
+    removeDuplicates(duplicates);

@@ -13,7 +13,7 @@ const duplicates = [
     ];
     function removeDuplicates(param) {
         const uniques =[];
-        for (const element of param){
+        for (const element of param) {
             if(!uniques.includes(element)) {
                 uniques.push(element);
 

@@ -6,8 +6,8 @@ function averageWord(param) {
     total += element.length;
   } else {
     total += element;
-  }  const quantity = param.length;
+  }  
  }
-  console.log(total / quantity);
+  console.log(total / param.length);
 }
 averageWord(mixedElements);
